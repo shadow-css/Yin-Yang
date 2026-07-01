@@ -75,19 +75,19 @@ background: none !important; }
 a:hover {
 color: #b87fff !important; }
 
-/* Beetle Glow! */
+
 img[src*="beetle"], img[src*="gb.png"], img[src*="sb.png"] {
     filter: drop-shadow(0px 0px 4px #ffd700) !important;
     transition: transform 0.2s ease !important;
 }
 
-/* --- Mound Box Glow --- */
+
 .mound-grid img {
     filter: drop-shadow(0px 0px 5px #5602af) !important;
     transition: transform 0.2s ease !important;
 }
 
-/* MAIN PANEL - The big gray stripe in the center in front of the background. */ 
+
 .container.main {
 background: rgba(145, 146, 148, .5);
 border: none;
@@ -96,7 +96,7 @@ border-radius: 5px; }
 .col-md-9 {
 background: none; } 
  
-/* TOPBAR, NAVBAR, & BREADCRUMB */
+
 .topbar {
 background: #000000 !important; 
 background: linear-gradient(200deg, #ffffff 0%, #000000 100%) !important; 
@@ -120,7 +120,7 @@ color: #9139ff !important;
 border-radius: 8px;
 }
 
-/* Mobile Fixes */
+
 .navbar-toggle {
 border: none !important;
 background: linear-gradient(200deg, #ffffff 0%, #000000 100%) !important;
@@ -131,7 +131,6 @@ box-shadow: none !important;
 border-top: none !important;
 }
 
-/* BOOKMARK BAR */
 .breadcrumb {
 background: linear-gradient(200deg, #ffffff 0%, #000000 100%) !important;
 color: #ffffff !important;
@@ -140,14 +139,15 @@ border-radius: 9px !important;}
 .breadcrumb .active {
 color: #ffffff; }
 
-/* ALERTS (I don’t touch these) */
+
 .alert, .alert-success, .alert-info {
     background: #739665 !important;
     border: 1px solid #HEX !important;
     border-radius: 6px !important;
     padding: 12px 20px !important;
-    color: #HEX !important;
+    color: #e2e2e2 !important;
 }
+
 .alert a, .alert-success a, .alert-info a {
     color: #aa2a9c !important;
     text-decoration: underline !important;
@@ -173,9 +173,6 @@ color: #ffffff; }
     color: #c709ff !important;
 }
 
-
-/*COMMENT BOX - The actual Box color */
-
 div#commentBox {
 background: linear-gradient(200deg, #ffffff 0%, #000000 100%) !important;
 border: none !important;
@@ -188,7 +185,7 @@ div#commentBox > b, div#commentBox > strong {
     display: none !important;
 }
 
-/* CUSTOM COMMENT MESSAGE */
+
 div#commentBox::before {
 content: "The King is out, maybe this is the time to snoop around?" !important; 
 position: absolute !important;
@@ -207,7 +204,6 @@ text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9) !important;
 display: block !important;
 }
 
-*/ This is to change the background of the comments themselves */
 .comment {     
 background: linear-gradient(180deg, #ffffff 0%, #000000 100%) !important;
 border: none !important;
@@ -221,7 +217,7 @@ text-align: left !important;
 background: linear-gradient(180deg, #ffffff 0%, #000000 100%) !important;
 }
 
-.text-muted { /* Comment sent on/date */
+.text-muted {
 color: #b69fcf !important; }
 
 button, input[type="submit"], .btn-primary {
@@ -236,7 +232,7 @@ display: none !important; }
 table#player.table div.xlarge { 
 margin-top: 10px !important; }
 
-/* SIDE PANELS */ 
+
 .panel {
 background: linear-gradient(200deg, #ffffff 0%, #000000 100%) !important;
 color: #HEX !important;
@@ -244,7 +240,6 @@ border: none !important;
 border-radius: 8px !important;
 box-shadow: none !important;  }
 
-/* PROGRESS BARS */
 
 .progress-bar {
 background: linear-gradient(200deg, #ffffff 0%, #000000  100%) !important;
@@ -263,13 +258,10 @@ color: #HEX !important;}
 .progress div {
 color: #ffffff !important; }
 
-/* PROGRESS BAR BACKGROUND */
 .progress {
 background:  #d6b5ff;
 color: #ffffff !important;
 border-radius: 8px !important;  }
-
-/* CHAT (This was SO difficult sobs cuz all templates were outdated) */
 
 #fraSidebarChat {
 background: #000000 !important;
@@ -293,6 +285,7 @@ color: #200424 !important;
 border: 1px solid #d6b5ff !important;
 border-radius: 4px !important;
 }
+
 #fraSidebarChat button,
 #fraSidebarChat .btn,
 #btnChatSettings,
@@ -376,9 +369,6 @@ color: #ffffff !important; }
 
 html.nolayout {
 background: none !important; }
- 
-/* KING DYNASTY/FEATURED/ETC. */
-
 
 .feature {
 background: linear-gradient(200deg, #000000 0%, #000000 100%) !important;
@@ -395,9 +385,7 @@ border-radius: 0px !important;
 .xsmall {
 font-size: 14px !important;
 }
- 
-/* KING PROFILE - Top: King’s Name/Title Bar .inner-table .left: Info about Den (Territory/Stats)
-.inner-table .right: Text next to King’s Info */
+
 
 .table {
 background: linear-gradient(200deg, #ffffff 0%, #000000 100%) !important;
@@ -444,8 +432,6 @@ If I want to make the text before the King’s name just change: div::before */
     content:', Where Light meets Shadow';
     font-size:17px;  
 }
-
-/* DEN ICON IMAGE REPLACEMENTS - Changes icons for Message/Gift/Trade/Wishlist/ViewTrades etc. */
 
 
 img[src$="icon_den_message.png"] {
@@ -544,7 +530,6 @@ img[src*="unsortedlionsbanner.png"] {
     height: 60px !important;
 }
 
-/* Making Cave and Beetle Images brighten upon hover */
 a:hover, a:active, 
 .feature:hover, .panel:hover, .cave-grid:hover,
 input:hover, select:hover, textarea:hover {
@@ -556,7 +541,6 @@ img[src*="beetle"]:hover, img[src*="gb.png"]:hover, img[src*="sb.png"]:hover {
     transform: scale(1.2) !important;
 } 
 
-/* Here’s where the images start */
 div.cave-grid>img {
 content: url('https://i.pinimg.com/736x/f5/5e/8d/f55e8d516cfe5082184dcb6931af13c8.jpg')!important;
 object-fit: cover !important;
@@ -574,7 +558,6 @@ width: 100% !important;
 height: 80px !important;
 }
 
-/* MEMBER ONLINE */
 .member-online {
     display: inline-block;
     box-sizing: border-box;
@@ -583,14 +566,14 @@ height: 80px !important;
     height: 18px !important;
     animation: yangPulse 2.5s infinite ease-in-out; }
 	
-/* MEMBER OFFLINE */
+
 .member-offline {
     display: inline-block;
     box-sizing: border-box;
     content: url('https://i.postimg.cc/ryQNPVMf/image.png');
     width: 18px !important;
     height: 18px !important;
-    opacity: 0.5; /* Makes the offline icon look resting and passive */
+    opacity: 0.5;
 }
 
 @keyframes yangPulse {
@@ -599,18 +582,14 @@ height: 80px !important;
         filter: drop-shadow(0 0 0px rgba(255, 255, 255, 0));
     }
     50% {
-        transform: scale(1.15); /* Subtle grow */
-        filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.8)); /* White spiritual glow */
+        transform: scale(1.15);
+        filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.8));
     }
     100% {
         transform: scale(1);
         filter: drop-shadow(0 0 0px rgba(255, 255, 255, 0));
     }
 }
-
-
-/* CREDITS */
-
 
 .breadcrumb::before {
     content: "CSS by Shadow #591622" !important;
@@ -637,8 +616,6 @@ height: 80px !important;
     .breadcrumb::after {
         right: 22%;
     }
-
-/* Mobile Move Fix */
 
 @media only screen and (max-width: 767px) {
     .breadcrumb::after {
